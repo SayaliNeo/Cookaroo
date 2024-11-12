@@ -1,0 +1,9 @@
+<resources>
+    <string name="dummy_ingredient_text">cheese</string>
+    <string name="number_of_ingredients">Number of Ingredients:</string>
+    <string name="top_three_findings">Top 3 Findings :</string>
+    <string name="generic_error_message">Something went wrong</string>
+    <string name="no_data_found">No data found</string>
+    <string name="bullet">"• "</string>
+    <string name="arrow">" -> "</string>
+</resources>
