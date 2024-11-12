@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cookaroo" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="android:colorAccent">@color/colorAccent</item>
+            <item name="android:windowBackground">@color/windowBackground</item>
+            <item name="android:statusBarColor">@color/windowBackground</item>
+            <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Cookaroo" parent="Base.Theme.Cookaroo" />
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/windowBackground</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Cookaroo</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
